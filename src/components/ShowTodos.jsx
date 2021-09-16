@@ -9,8 +9,6 @@ export function ShowTodos({ todoList ,getTodos}) {
               <div>
                 <div key={el.id}>
                         {el.title}-{el.status ? "Done" : "Not Done"}
-                        {" "}
-                  <button>Delete</button>
                 </div>
               </div>
             );
